@@ -1,7 +1,3 @@
-window.alert("hola")
-window.confirm("hola confirm")
-window.prompt("hola prom")
-
 
 function showAlert(){
     alert("Hola, esta es una alerta desde JavaScript");
