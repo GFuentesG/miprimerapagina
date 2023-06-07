@@ -1,5 +1,7 @@
-
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .container{
     max-width: 800px;
@@ -130,19 +132,21 @@ a {
 
 .cualidades {
         display: flex;
-      
         flex-direction: column;
+        width: 60%;
+        padding-left: 20%;
+}
 
-    }
 iframe {
     max-width: 90%;
 }
+
 
 }
 
 .cualidades {
     display: flex;
-  /*  align-content: center;*/
+    align-content: center;
     justify-content: space-around;
 }
 
@@ -153,11 +157,10 @@ footer { /*no sale a todo el ancho pie pagina*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     text-align: center;
     min-height: 200px;
     background-color: lightgray;
-    
+    width: 100%;
 
 }
 
